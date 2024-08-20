@@ -1,0 +1,1 @@
+const toggleAccordion = id => document.getElementById(id).classList.toggle('accordion__active')

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu__right">
+        <h4>November 2nd-3rd 2023 | NEw Center, Berline</h4>
+        <button>See you in 2024</button>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="intro__content">
+            <h1>A fresh take on creating websites and products people love</h1>
+            <div class="intro__text">
+              <p>
+                This year we came together in Berline for our first-ever
+                HOTSAUCE conference. Over two days, some of the brightest minds
+                in product, marketing, ecommerce, and UX joined us to connect
+                over the future of digital experiences—and we had a blast.
+              </p>
+              <p>
+                Join us next year for more visionary keynotes, peer-led
+                roundtables, Hotjar masterclasses, and new connections. Be the
+                first to learn about HOTSAUCE 2024 by subscribing to our
+                newsletter.
+              </p>
+            </div>
+            <button>Get Updates</button>
+          </div>
+        </div>
+      </section>
+      <h3 class="speakers__title">Our speakers</h3>
+      <section class="speakers">
+        <div class="container">
+          <div class="speakers__content">
+            <div class="speakers__item">
+              <img src="./assets/person-1.png" alt="" />
+              <h3>Keisha Mabry</h3>
+              <p>Founder</p>
+              <p class="speaker__highlight">Heydays</p>
+              <a href="">View Bio</a>
+            </div>
+            <div class="speakers__item">
+              <img src="./assets/person-2.png" alt="" />
+              <h3>Chris Do</h3>
+              <p>Founder</p>
+              <p class="speaker__highlight">The Futur</p>
+              <a href="">View Bio</a>
+            </div>
+            <div class="speakers__item">
+              <img src="./assets/person-3.png" alt="" />
+              <h3>Rand Fishkin</h3>
+              <p>Cofounder & CEO</p>
+              <p class="speaker__highlight">SparkToro</p>
+              <a href="">View Bio</a>
+            </div>
+            <div class="speakers__item">
+              <img src="./assets/person-4.png" alt="" />
+              <h3>Ioana Teleanu</h3>
+              <p>Lead Product Designer, AI</p>
+              <p class="speaker__highlight">Miro</p>
+              <a href="">View Bio</a>
+            </div>
+            <div class="speakers__item">
+              <img src="./assets/person-5.png" alt="" />
+              <h3>Kyle Poyar</h3>
+              <p>Operating Partner</p>
+              <p class="speaker__highlight">OpenView</p>
+              <a href="">View Bio</a>
+            </div>
+            <div class="speakers__item">
+              <img src="./assets/person-6.png" alt="" />
+              <h3>+ Many more industry experts</h3>
+              <a href="">View Bio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="conference">
+        <div class="container">
+          <div class="conference__header">
+            <div class="conference__header-left">
+              <h3>Join us at</h3>
+              <img src="./assets/conference-logo.svg" alt="conference in NY" />
+            </div>
+            <div class="conference__header-right">
+              <img src="./assets/logo.svg" alt="" />
+            </div>
+          </div>
+          <div class="conference__content">
+            <div class="conference__ticket">
+              <div class="conference__ticket-left">
+                <h3 class="price">$319</h3>
+                <div class="promo">
+                    <div class="promo__top">Super Early Bird</div>
+                    <div class="promo__discount">Save 46%!</div>
+                    <div class="promo__data">Ends July 31</div>
+                  </div>
+              </div>
+              <h3 class="status">Sold out</h3>
+            </div>
+            <div class="conference__ticket">
+                <div class="conference__ticket-left">
+                  <h3 class="price">$319</h3>
+                  <div class="promo">
+                      <div class="promo__top">Super Early Bird</div>
+                      <div class="promo__discount">Save 46%!</div>
+                      <div class="promo__data">Ends July 31</div>
+                    </div>
+                </div>
+                <h3 class="status">Sold out</h3>
+              </div>
+              <div class="conference__ticket">
+                <div class="conference__ticket-left">
+                  <h3 class="price">$319</h3>
+                  <div class="promo">
+                      <div class="promo__top">Super Early Bird</div>
+                      <div class="promo__discount">Save 46%!</div>
+                      <div class="promo__data">Ends July 31</div>
+                    </div>
+                </div>
+                <h3 class="status">Sold out</h3>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <h3>FAQS</h3>
+          <div class="accordion">
+            <div class="accordion__item" id="accordion1">
+              <div class="accordion__header" onclick="toggleAccordion('accordion1')">
+                Who is this for? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you’ll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+            <div class="accordion__item" id="accordion2">
+              <div class="accordion__header" onclick="toggleAccordion('accordion2')">
+                Is the venue accessible? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you’ll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+            <div class="accordion__item" id="accordion3">
+              <div class="accordion__header" onclick="toggleAccordion('accordion3')">
+                How sustainable are events at Javits Center? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you'll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+            <div class="accordion__item" id="accordion4">
+              <div class="accordion__header" onclick="toggleAccordion('accordion4')">
+                What's included in the ticket price? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you'll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+            <div class="accordion__item" id="accordion5">
+              <div class="accordion__header" onclick="toggleAccordion('accordion5')">
+                What's the dress code? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you'll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+            <div class="accordion__item" id="accordion6">
+              <div class="accordion__header" onclick="toggleAccordion('accordion6')">
+                Where can I stay? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you'll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+            <div class="accordion__item" id="accordion7">
+              <div class="accordion__header" onclick="toggleAccordion('accordion7')">
+                I've bought a ticket but can no longer attend, what do I do? <img src="/assets/arrow.svg" alt="">
+              </div>
+              <div class="accordion__bottom">
+                HOTSAUCE is for anyone working in marketing, product, UX design, and
+                ecommerce but if you own a website or product you want to improve,
+                you'll also find it useful. The aim is to inspire you by giving you
+                the tools you need to empathize with your audience and improve your
+                digital experience.
+              </div>      
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>  
+      <script src="./scripts/script.js"></script>
+  </body>
+</html>
