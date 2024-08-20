@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 2000px;
+}
+.a {
+    position: relative;
+    background-color: rgb(0, 255, 242);  
+}
+.b {
+    position: sticky;
+    top: 0px;
+    background: red;
+}

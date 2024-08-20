@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form class="form">
+        <fieldset class="a">
+            <legend>Имя</legend>
+            <div>
+                <input type="text" name="Фамилия" placeholder="Фамилия">
+            </div>
+            <div>
+                <input type="text" name="Имя" placeholder="Имя">
+            </div>
+        </fieldset>
+        <header>
+            <header class="radio">
+                <fieldset >
+                    <legend>Пол</legend>
+                    <div><input type="radio" name="пол" id="пол" value="Мужеской">
+                    <label>Мужеской</label></div>
+                    <div><input type="radio" name="пол" id="пол" value="женский">
+                    <label>Женский</label></div>
+                    <div><input type="radio" name="пол" id="пол" value="Не хочу говорить">
+                    <label>Не хочу говорить</label></div>
+                </fieldset>
+            </header>
+            <header class="checkbox">
+                <fieldset>
+                    <legend>Получать рассылку по</legend>
+                   <div> <input type="checkbox" name="Получать расылку по" id="Получать расылку по" value="Email">
+                    <label>Email</label></div>
+                    <div><input type="checkbox" name="Получать расылку по" id="Получать расылку по" value="SMS">
+                    <label>SMS</label></div>
+                </fieldset>
+            </header>
+        </header>
+        <div class="btn">
+            <button  type="submit">Отправит</button>
+        </div>
+    </form>
+</body>
+
+</html>

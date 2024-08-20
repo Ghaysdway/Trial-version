@@ -1,0 +1,22 @@
+h1 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+.ddd {
+    font-size: 30px;
+}
+.M {
+    background: rgb(255, 157, 0);   
+}
+.P {
+  background: rgb(0, 255, 225);
+}
+.K {
+    background: rgb(255, 0, 234);
+}
+.G {
+    background: rgb(144, 153, 51);
+}
+.C {
+    background: red;
+}

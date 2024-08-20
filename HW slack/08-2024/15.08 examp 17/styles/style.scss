@@ -1,0 +1,27 @@
+@import "./reset.scss";
+@import "./variable.scss";
+
+body {
+    background-color: aquamarine;
+}
+
+.workSass {
+    background-color: $color--for-div;
+    border-radius: 30%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 250px;
+    h1 {
+        font-size: 30px;
+        color:blue ;
+        margin-left: 140px;
+    }
+    .heading {
+      color:$primary-color;
+      font-size: 15px;
+      margin: 50px;
+
+    }
+}

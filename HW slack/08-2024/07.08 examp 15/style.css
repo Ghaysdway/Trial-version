@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#cards {
+    background-color:gainsboro;
+}
+.card {
+   
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    max-width: 200px;
+}
+.card h3 {
+    margin: 10px 0 0 ;
+    font-size: 30px;
+    color:blue;
+}
+.card p {
+    margin: 5px 0 ;
+    font-size: 15px;
+    color: black;
+}

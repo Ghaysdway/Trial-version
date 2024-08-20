@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.workSass {
+  background-color: rgb(163, 226, 163);
+  border-radius: 30%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 250px;
+}
+.workSass h1 {
+  font-size: 30px;
+  color: blue;
+  margin-left: 140px;
+}
+.workSass .heading {
+  color: #ff0000;
+  font-size: 15px;
+  margin: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

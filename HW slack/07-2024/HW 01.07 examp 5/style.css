@@ -1,0 +1,19 @@
+* {
+margin: 0;
+padding: 0;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   background-color: #e7acca;
+   gap: 30px;
+   margin: 20px;
+}
+.box {
+    width: 95px;
+    height: 100px;
+    background-color: #61d9f4;
+    font-size: 12px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}

@@ -1,0 +1,48 @@
+.gw {
+    background-color: cadetblue;
+}
+h1 {
+    font-weight: 1200;
+    color: aliceblue;
+    padding: 5px;
+    background-color: gold;
+    font-size: 30px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.a1 {
+ background-color: aqua;
+padding: 0px;
+font-size: 20px;
+border-radius: 3px;
+}
+.a2 {
+    background-color: aqua;
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 3px;   
+}
+.a3 {
+    background-color: aqua;
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 3px;   
+}
+.a4 {
+    background-color: aqua;
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 3px;    
+}
+.a5 {
+    background-color: aqua;
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 3px;   
+}
+h4 {
+    margin-bottom: -12px;
+    font-size: 20px;
+}
